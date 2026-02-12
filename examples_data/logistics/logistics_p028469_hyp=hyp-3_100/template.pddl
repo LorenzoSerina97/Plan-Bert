@@ -1,0 +1,63 @@
+(define (problem logistics-test)
+(:domain logistics)
+(:objects
+	apn1 apn2 apn3 apn4 apn5 apn6 apn7 apn8 - airplane
+	cit1 cit2 cit3 cit4 cit5 cit6 - city
+	apt1 apt2 apt3 apt4 apt5 apt6 apt7 apt8 - airport
+	tru1 tru2 tru3 tru4 tru5 - truck
+	obj00 obj11 obj12 obj13 obj21 obj22 obj23 obj33 obj44 obj55 obj66 obj77 obj88 obj99 - package
+	pos11 pos12 pos13 pos21 pos22 pos23 pos33 pos44 pos55 pos66 pos77 - location
+)
+(:init
+	(at apn1 apt5)
+	(at apn2 apt6)
+	(at apn3 apt5)
+	(at apn4 apt6)
+	(at apn5 apt4)
+	(at apn6 apt4)
+	(at apn7 apt5)
+	(at apn8 apt6)
+	(at obj00 pos66)
+	(at obj11 pos22)
+	(at obj12 pos44)
+	(at obj13 pos13)
+	(at obj21 pos33)
+	(at obj22 pos55)
+	(at obj23 pos77)
+	(at obj33 pos13)
+	(at obj44 pos33)
+	(at obj55 pos55)
+	(at obj66 pos66)
+	(at obj77 pos11)
+	(at obj88 pos11)
+	(at obj99 pos33)
+	(in-city apt1 cit6)
+	(in-city apt2 cit1)
+	(in-city apt3 cit4)
+	(in-city apt4 cit2)
+	(in-city apt5 cit3)
+	(in-city apt6 cit5)
+	(in-city apt7 cit6)
+	(in-city apt8 cit1)
+	(in-city pos11 cit3)
+	(in-city pos12 cit5)
+	(in-city pos13 cit1)
+	(in-city pos21 cit6)
+	(in-city pos22 cit5)
+	(in-city pos23 cit4)
+	(in-city pos33 cit3)
+	(in-city pos44 cit1)
+	(in-city pos55 cit1)
+	(in-city pos66 cit4)
+	(in-city pos77 cit2)
+	(at tru5 pos33)
+	(at tru4 pos12)
+	(at tru3 pos13)
+	(at tru2 pos21)
+	(at tru1 pos66)
+)
+(:goal 
+(and
+<HYPOTHESIS>
+))
+)
