@@ -5,6 +5,7 @@ Configuration file for BERT pre-training .
 
 # Training configuration
 config = {
+
     #Domain to train
     "domain": "blocksworld",
     

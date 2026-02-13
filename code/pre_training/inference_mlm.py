@@ -19,7 +19,6 @@ import pickle
 import datetime
 
 # Import from local modules
-import plan
 from utils.dataset import Dataset
 from config import config, model_config
 
